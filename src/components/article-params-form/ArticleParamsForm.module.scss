@@ -16,8 +16,9 @@
 	display: flex;
 	flex-shrink: 0;
 	flex-direction: column;
+	gap: 50px;
 	box-sizing: border-box;
-	width: 616px;
+	width: auto;
 	height: auto;
 	min-height: 100%;
 	padding: 50px 31px;
@@ -29,4 +30,33 @@
 	display: flex;
 	justify-content: space-between;
 	margin-top: auto;
+}
+
+.reset {
+	color: #000000;
+	font-weight: 800;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	text-transform: uppercase;
+}
+
+.submit {
+	font-weight: 800;
+	font-size: 18px;
+	font-family: 'Open Sans', sans-serif;
+	font-style: normal;
+	text-transform: uppercase;
+	background-color: rgb(255 200 2 / 100%);
+}
+
+.submit:hover {
+	background-color: rgb(255 237 171 / 100%);
+}
+
+.reset:hover {
+	color: #ffffff;
+
+	// background-color: rgba(0, 0, 0, 1);
+	background-color: rgb(0 0 0 / 100%);
 }

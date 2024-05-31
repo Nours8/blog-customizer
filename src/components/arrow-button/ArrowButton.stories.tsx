@@ -13,7 +13,8 @@ export const ArrowButtonStory: Story = {
 	render: () => {
 		return (
 			<>
-				<ArrowButton />
+				{/* eslint-disable-next-line @typescript-eslint/no-empty-function */}
+				<ArrowButton onClick={() => {}} isOpen={true} />
 			</>
 		);
 	},
